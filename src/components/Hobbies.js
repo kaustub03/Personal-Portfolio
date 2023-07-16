@@ -8,7 +8,7 @@ function Hobbies() {
     return (
     <section id="hobby">
     <h1>HOBBIES</h1>
-    <div id="hobby-slide" className="carousel slide" data-ride='carousel'>
+    {/* <div id="hobby-slide" className="carousel slide" data-ride='carousel'>
     <div className="carousel-inner">
         <div className="carousel-item active">
             <div className="row">
@@ -39,6 +39,22 @@ function Hobbies() {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
     </button>
+    </div> */}
+    <div className="container">
+        <ul>
+            <li className="image-list">
+                <img src = {readimg} alt = 'readimg' />
+                <img src = {ttimg} alt = 'ttimg' />
+                <img src = {gymimg} alt = 'gymimg' />
+            </li>
+            <li className="label-list">
+                <div className="label-wrapper">
+                    <h2>Reading</h2>
+                    <h2>Table Tennis</h2>
+                    <h2>Working out</h2>
+                </div>
+            </li>
+        </ul>
     </div>
     </section>
     );
