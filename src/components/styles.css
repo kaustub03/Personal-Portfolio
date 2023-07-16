@@ -90,9 +90,9 @@ h5{
 #skill,
 #project,
 #footer{
-    position: relative;
+    /* position: relative; */
     background:black;
-    z-index: 2;
+    /* z-index: 2; */
 
     padding-bottom: 5rem;
 }
@@ -103,7 +103,7 @@ h5{
 }
 
 #skill{
-    margin-top: 34rem;
+    /* margin-top: 34rem; */
 }
 
 
